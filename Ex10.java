@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Ex10 {
 	 public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-
-	        // Solicita os comprimentos dos lados
 	        System.out.print("Digite o comprimento do lado 1: ");
 	        double a = scanner.nextDouble();
 
@@ -13,8 +11,6 @@ public class Ex10 {
 
 	        System.out.print("Digite o comprimento do lado 3: ");
 	        double c = scanner.nextDouble();
-
-	        // Verifica se os lados formam um triângulo válido
 	        if (a + b > c && a + c > b && b + c > a) {
 	            System.out.println("Os lados formam um triângulo válido.");
 	        } else {
